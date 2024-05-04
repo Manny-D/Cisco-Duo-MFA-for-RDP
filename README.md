@@ -1,9 +1,10 @@
 # Cisco Duo: Setting up MFA for RDP access
 
 <p align="center">
-<img src="https://github.com/Manny-D/Cisco-Duo-MFA-for-RDP/assets/99146530/cd4c6e6f-18d8-4625-af1f-d8b94224c9c6" height=20%" width="20%" alt="Duo Logo"/>
+<img src="https://github.com/Manny-D/Cisco-Duo-MFA-for-RDP/assets/99146530/524ca371-b064-4f7e-ae0d-87d1fac7aa16" alt="Duo Logo"/>
 </p>
 
+<br>
 
 ## Description
 In this project, we explore how to strengthens our defenses by adding Duo Security's Multi-Factor Authentication (MFA) to RDP (remote desktop protocol) connections. This extra layer of security ensures only authorized users can access our server, keeping your data safe.
