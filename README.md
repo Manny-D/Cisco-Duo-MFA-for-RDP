@@ -23,11 +23,11 @@ On the left pane, expand <b>Users</b> -> click <b>Add User</b> -> enter the requ
 
 ![Users](https://github.com/Manny-D/Cisco-Duo-MFA-for-RDP/assets/99146530/dbae158d-af1e-44ba-a038-9c49a28cccbc)
 
-A confirmation email will be sent with an enrollment link.
+A confirmation email will be sent with an enrollment link. Click on the link.
 
 ![Confirmation email](https://github.com/Manny-D/Cisco-Duo-MFA-for-RDP/assets/99146530/48b76ddc-9a5e-458f-b91c-3fad5c2c54a4)
 
-Launch the mobile application on your smartphone. <br>
+Install and launch the mobile application on your smartphone. <br>
 [Android App](https://play.google.com/store/apps/details?id=com.duosecurity.duomobile&hl=en_US&gl=US) <br>
 [Apple App](https://apps.apple.com/us/app/duo-mobile/id422663827) <br>
 
@@ -54,31 +54,31 @@ On the next page, download the "Duo Authentication for Windows Login Installer" 
 
 <img src="https://i.imgur.com/HQYTeRN.png" height="70%" width="70%" alt="9"/><br />
 
-Copy and paste the API Hostname into the InstallShield Wizard.
+Copy and paste the API hostname into the InstallShield Wizard.
 
-<img src="https://i.imgur.com/LYHRkdS.png" height="70%" width="70%" alt="9"/><br />
+![API hostname](https://github.com/Manny-D/Cisco-Duo-MFA-for-RDP/assets/99146530/8b7547d2-3172-4373-bcb9-85f39b8e5a45)
 
-Do the same for the Integration Key and Secret Key and click <b>Next</b>.
+Do the same for the Integration Key and Secret Key then click <b>Next</b>.
 
-<img src="https://i.imgur.com/i4Xniv9.png" height="70%" width="70%" alt="9"/><br />
+![Int and Sec keys](https://github.com/Manny-D/Cisco-Duo-MFA-for-RDP/assets/99146530/d6d7b3d0-c394-4e00-a532-81703ebaf6e1)
 
-For this project, we can leave the next settings (like the one below) at their default. 
+For this project, in the settings that follow (like the ones pictured below) no changes are necessary - eg. keep them at their default. 
 
 ![Screenshot 2024-05-02 at 11 51 47 AM](https://github.com/Manny-D/Cisco-Duo-MFA-for-RDP/assets/99146530/60285558-7a51-4ae3-b5b0-ebf7d2b6a607)
 
-Continue clicking <b>Next</b> till you get to here, then click <b>Finish</b> to start the installer. 
+Continue clicking <b>Next</b> till you get to the <b>Install Wizard Completed</b> part, then click <b>Finish</b> to start the installer. 
 
 <img width="374" alt="Screenshot 2024-05-02 at 11 48 58 AM" src="https://github.com/Manny-D/Cisco-Duo-MFA-for-RDP/assets/99146530/0feb390f-0ebb-4c0e-9a36-00677c355130">
 
-After the installation is completed, log out. 
+After the installation is completed, log out of the server. 
 
 <br>
 
 ## Login to test MFA
 
-Log back in to the server and you will now see the following Duo pop up:
+Log back in to the server and you will now receive the following Duo pop up.
 
-<img width="481" alt="Screenshot 2024-05-02 at 12 02 48 PM" src="https://github.com/Manny-D/Cisco-Duo-MFA-for-RDP/assets/99146530/30435662-c1c2-49d1-80ae-b5bf9b0c4a28">
+<img width="481" alt="Screenshot 2024-05-02 at 12 02 48 PM" src="https://github.com/Manny-D/Cisco-Duo-MFA-for-RDP/assets/99146530/30435662-c1c2-49d1-80ae-b5bf9b0c4a28"> <br>
 
 The server now requires Multi-Factor Authentication (MFA) each time a user logs in using Remote Desktop Protocol (RDP).
 
