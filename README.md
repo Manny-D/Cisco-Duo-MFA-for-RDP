@@ -7,7 +7,7 @@
 <br>
 
 ## Description
-In this project, we explore how to strengthens our defenses by adding Duo Security's Multi-Factor Authentication (MFA) to RDP (remote desktop protocol) connections. This extra layer of security ensures only authorized users can access our server, keeping your data safe.
+In this project, we explore how to strengthen a server's defenses by adding Duo Security's Multi-Factor Authentication (MFA) to RDP (remote desktop protocol) connections. This extra layer of security ensures only authorized users can access our server, keeping our data safe.
 
 <b>Note</b>: This project is using an already spun up Microsoft Azure Virtual Machine (VM) running Server 2019.
 
